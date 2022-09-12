@@ -12,6 +12,7 @@ spec:
       labels:
         app: web
     spec:
+      nodeName: ip-10-0-6-216.us-east-2.compute.internal
       containers:
         - env:
             - name: DB_URI
