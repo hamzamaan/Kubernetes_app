@@ -12,3 +12,4 @@ resources:
 - service-web.yaml
 - istio.yaml
 - jenkins.yaml
+- hpa.yaml
