@@ -23,7 +23,7 @@ spec:
           name: web
           resources:
             requests:
-              cpu: "100m"
+              cpu: "50m"
             limits:
               cpu: "200m"  
           image: 191124798140.dkr.ecr.us-east-2.amazonaws.com/flask_app:lastest
