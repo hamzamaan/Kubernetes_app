@@ -23,9 +23,9 @@ spec:
           name: web
           resources:
             requests:
-              cpu: "50m"
+              cpu: "100m"
             limits:
-              cpu: "200m"  
+              cpu: "250m"  
           image: 191124798140.dkr.ecr.us-east-2.amazonaws.com/flask_app:lastest
           ports:
           - containerPort: 5000
