@@ -23,10 +23,8 @@ spec:
           name: web
           resources:
             requests:
-              memory: "250Mi"
               cpu: "100m"
             limits:
-              memory: "500Mi"
               cpu: "200m"  
           image: 191124798140.dkr.ecr.us-east-2.amazonaws.com/flask_app:lastest
           ports:
