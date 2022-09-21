@@ -2,12 +2,11 @@ apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
   name: hpa-web-app
-  namespace: saelor-app
 spec:
   maxReplicas: 10
-  minReplicas: 2
+  minReplicas: 4
   scaleTargetRef:
     apiVersion: argoproj.io/v1alpha1
     kind: Rollout
     name: web
-  targetCPUUtilizationPercentage: 60
+  targetCPUUtilizationPercentage: 80
