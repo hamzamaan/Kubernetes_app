@@ -21,6 +21,13 @@ spec:
             # - name: REDIS_URI
             #   value: redis://redis:6379
           name: web
+          resources:
+            requests:
+              memory: "250Mi"
+              cpu: "100m"
+            limits:
+              memory: "500Mi"
+              cpu: "300m"  
           image: 191124798140.dkr.ecr.us-east-2.amazonaws.com/flask_app:lastest
           ports:
           - containerPort: 5000
