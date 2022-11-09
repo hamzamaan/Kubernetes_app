@@ -15,7 +15,7 @@ spec:
           - "curl"
           - "-I"
           - "-u"
-          - "wahaj:wahaj"
+          - "hamza:hamza123a"
           - "http://3.144.29.63:8080/job/load_testing/build?token=load_testing_123"
       restartPolicy: Never
   backoffLimit: 2
