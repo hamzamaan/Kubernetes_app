@@ -16,6 +16,6 @@ spec:
           - "-I"
           - "-u"
           - "hamza:hamza123a"
-          - "http://3.144.29.63:8080/job/load_testing/build?token=load_testing_123"
+          - "https://cmpdevops.visionet.com/job/load_testing/build?token=load_testing_123"
       restartPolicy: Never
   backoffLimit: 2
